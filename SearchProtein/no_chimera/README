@@ -1,2 +1,4 @@
-在这个版本中旋转和平移使用python实现，其中旋转使用scipy.spatial.transform.Rotation实现，不能实时展示效果，只能等算法结束后使用chimera打开输出文件对比其与目标之间的差异效果。
-使用PDB类导入pdb文件，初始化时获取pdb文件中有关pdb的所有信息，包括位置参数、原子名称等等。
+    在这个版本中旋转和平移使用python实现，其中旋转使用scipy.spatial.transform.Rotation实现，不能实时展示效果，只能等算法结束后使用chimera打开输出文件对比其与目标之间的差异效果。
+    使用PDB类导入pdb文件，初始化时获取pdb文件中有关pdb的所有信息，包括位置参数、原子名称等等。
+    需要的依赖包为：numpy,scipy,matplotlib
+    每一组输入包括两个文件，分别为input.pdb文件，目标实验数据文件，输出也是两个文件，其一为pdb文件，其二为iq数据文件。
