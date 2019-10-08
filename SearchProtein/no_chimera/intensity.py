@@ -146,12 +146,3 @@ def cal_intensity(pdb, out_iq_path = 'out_iq_path.dat'):
     np.savetxt(out_iq_path, Iq, delimiter=' ', fmt='% .16e')
     # print(Iq)
     return Iq
-
-# import handle
-# import os
-# if __name__ == "__main__":
-#     os.system('sastbx.she structure=/Users/wyf/Desktop/sbw/auto_fit822/correct_test/dat/t0_t0.pdb experimental_data=/Users/wyf/Desktop/sbw/auto_fit822/correct_test/dat/t0_t0_saxs.dat output=/Users/wyf/Desktop/sbw/auto_fit822/correct_test/dat/tbx33333333.dat ')
-    # pdb_path = 'correct_test/dat/t0_t0.pdb'
-    # pdb = handle.PDB(pdb_path)
-    # iq = cal_intensity(pdb)
-    # np.savetxt('correct_test/dat/iq_denss.dat', iq, delimiter=' ', fmt='% .16e')
