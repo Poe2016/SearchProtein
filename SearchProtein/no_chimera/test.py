@@ -25,12 +25,12 @@ def paral_cal():
 
 
 if __name__ == "__main__":
-    # profile_path = 'test826/iq0.dat'
-    # iq_path = 'test826/out_iq_0.dat'
+    # profile_path = 'test/iq0.dat'
+    # iq_path = 'test/out_iq_0.dat'
     # data_display(profile_path,iq_path)
 
 
-    pdb=PDB('test827/pdb/t1.pdb')
+    pdb=PDB('test/pdb/t1.pdb')
     # # hc(pdb, 'hc.dat')
     ic(pdb, 'ic2.dat')
 
