@@ -1,0 +1,2 @@
+    运行前，需要先试用Chimera软件打开以下文件：input2.pdb,input1.pdb,target.pdb。这一步能看到输入与目标之间的差异。
+    使用Chimera自带的IDLE打开rmsd_handle.py文件，运行该文件。
